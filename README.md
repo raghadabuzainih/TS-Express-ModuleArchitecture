@@ -34,8 +34,8 @@ It provides **JWT authentication**, **role-based access control**, **user profil
 | POST   | `/courses`     | COACH / ADMIN   | Create a new course                        |
 | GET    | `/courses`     | Public          | Get all courses                            |
 | GET    | `/courses/:id` | Public          | Get course by ID                           |
-| PUT    | `/courses/:id` | COACH / ADMIN   | Update course (only creator or admin)      |
-| DELETE | `/courses/:id` | COACH / ADMIN   | Delete course (only creator or admin)      |
+| PUT    | `/courses/:id` | COACH / ADMIN   | Update course                              |
+| DELETE | `/courses/:id` | COACH / ADMIN   | Delete course                              |
 
 ---
 
